@@ -41,7 +41,7 @@ public class SpamCronJobServlet extends HttpServlet {
             log.info("Sender email id is " + senderEmailId);
             String subject = "Mondu masala";
             String body = "Awara ho tum";
-            String recipientName = "Manish Sinha";
+            String recipientName = "Manisha Sinha";
             String senderName = "Admin";
             if (spamTarget.isActive()) {
                 Properties props = new Properties();
